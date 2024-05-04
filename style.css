@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
+    margin: 0;
+    padding: 0;
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
@@ -9,47 +11,48 @@ body {
 }
 
 header {
-    height: 300px;
+    background-image: url(img/ujheader.jpg);
+    height: 24rem;
+    width: 100%;
     background-repeat: no-repeat;
-    display: grid;
-    place-items: center;
-    position: relative;
+    background-size: cover;
     margin-bottom: 2rem;
+    position: relative;
 }
 
-header::before {
-    background-position: 50%;
-    background-image: url(img/header.jpg);
-    background-repeat: no-repeat;
+header::after {
     content: '';
     position: absolute;
-    inset: 0;
-    opacity: 0.65;
-    background-size: cover;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; 
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(238, 174, 202, 0.4));
+    pointer-events: none;
 }
 
 h1 {
     font-size: 80px;
-    padding-top: 2rem;
+    padding-top: 8rem;
     color: #000;
     text-shadow: 3px 1px white;
     font-family: 'Montserrat';
-    isolation: isolate;
 
     animation: slideInText 1s ease forwards;
+}
+
+#headerText {
+    float: right;
+    margin-right: 15rem;
 }
 
 #headerParagraph {
     color: #000;
     text-shadow: 1px 1px white;
     font-size: 20px;
-    isolation: isolate;
     font-style: italic;
-    margin: 0;
     font-weight: 500;
-
     animation: slideInText 1.5s ease forwards;
-
 }
 
 @keyframes slideIn {
