@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
 ::-webkit-scrollbar {
@@ -56,6 +56,7 @@ h1 {
     from {
         transform: translateY(-100%);
     }
+
     to {
         transform: translateY(0);
     }
@@ -66,6 +67,7 @@ h1 {
         opacity: 0;
         transform: translateY(-50px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -84,6 +86,7 @@ h1 {
 }
 
 #bemutatkozas {
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     font-style: italic;
     text-align: center;
@@ -94,6 +97,75 @@ h1 {
     margin: auto;
     border: 1px solid #000;
     border-radius: 2px;
-    width: 300px;
+    width: 80%;
     display: block;
+
+    animation: slideInKamera 1s ease forwards;
+}
+
+@keyframes slideInKamera {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+#bemutatkozasCim {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#szolgaltatasok {
+    margin-top: 2rem;
+}
+
+#szolgaltatasokCim {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#szolgaltatasokParagraph {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    width: 18rem;
+    height: 27rem;
+    margin-top: 1rem;
+}
+
+#csomagok {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+li {
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#gomb {
+    width: 15rem;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.card-title {
+    font-size: 2rem;
 }
