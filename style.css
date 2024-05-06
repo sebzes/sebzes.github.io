@@ -136,13 +136,14 @@ h1 {
 }
 
 .card {
-    width: 18rem;
+    /* width: 18rem; */
     height: 27rem;
     margin-top: 1rem;
+    margin-bottom: 2rem
 }
 
 #csomagok {
-    width: 50%;
+    width: ;
     margin: 0 auto;
     display: grid;
     justify-content: center;
@@ -164,9 +165,9 @@ li {
 
 #gomb {
     width: 15rem;
-    display: inline-block;
-    margin: 0 auto;
-
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 .card-title {
