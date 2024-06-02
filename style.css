@@ -31,6 +31,7 @@ header::after {
     pointer-events: none;
 }
 
+
 h1 {
     font-size: 80px;
     padding-top: 8rem;
@@ -77,17 +78,6 @@ h1 {
     }
 }
 
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 60px;
-        padding-top: 2rem;
-        color: #000;
-        text-shadow: 3px 1px white;
-        font-family: 'Montserrat';
-        isolation: isolate;
-    }
-}
-
 #bemutatkozas {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
@@ -128,6 +118,9 @@ h1 {
 #szolgaltatasokCim {
     text-decoration: underline;
     text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 2rem;
 }
 
 #szolgaltatasokParagraph {
@@ -135,19 +128,30 @@ h1 {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+#szolgaltatasokCimsor {
+    text-decoration: underline;
+    text-align: center;
+}
+
 .card {
-    /* width: 18rem; */
+    width: 18rem;
     height: 27rem;
     margin-top: 1rem;
-    margin-bottom: 2rem
 }
 
 #csomagok {
-    width: ;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 98.5%;
     margin: 0 auto;
     display: grid;
     justify-content: center;
     place-items: center;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
 }
 
 h5 {
@@ -165,11 +169,59 @@ li {
 
 #gomb {
     width: 15rem;
-    display: block;
-    margin: auto;
-    margin-top: 2rem;
+    display: inline-block;
+    margin: 0 auto;
+
 }
 
 .card-title {
     font-size: 2rem;
+}
+
+@media screen and (max-width: 1250px) {
+    header {
+        background-image: url(img/allokep.jpg);
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        position: relative;
+        text-align: center;
+    }
+    
+    header::before {
+        background-image: url(img/allokep.jpg);
+        text-align: center;
+        background-size: cover;
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: 0.5;
+    }
+
+    h1 {
+        isolation: isolate;
+        opacity: 1;
+        text-align: center;
+        font-size: 80px;
+        padding-top: 8rem;
+        color: #000;
+        text-shadow: 3px 1px white;
+        font-family: 'Montserrat';
+        animation: slideInText 1s ease forwards;
+    }
+    
+    #headerParagraph {
+        text-align: center;
+        color: #000;
+        text-shadow: 1px 1px white;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 500;
+        animation: slideInText 1.5s ease forwards;
+    }
+
+    #headerText {
+        float: right;
+        margin: auto;
+    }
 }
