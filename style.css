@@ -146,6 +146,7 @@ h1 {
     display: grid;
     justify-content: center;
     place-items: center;
+    padding-bottom: 2rem;
 }
 
 #cards {
@@ -224,4 +225,21 @@ li {
         float: right;
         margin: auto;
     }
+}
+
+footer {
+    height: 2rem;
+    text-align: center;
+
+}
+
+#footerParagraph {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+#footerURL:hover {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: oblique;
 }
