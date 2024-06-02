@@ -1,0 +1,54 @@
+@media screen and (max-width: 1250px) {
+    #ugyfelek {
+        place-items: center;
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    header {
+        background-image: url(../img/allokep.jpg);
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        position: relative;
+        text-align: center;
+    }
+    
+    header::before {
+        background-image: url(../img/allokep.jpg);
+        text-align: center;
+        background-size: cover;
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: 0.5;
+    }
+
+    h1 {
+        isolation: isolate;
+        opacity: 1;
+        text-align: center;
+        font-size: 80px;
+        padding-top: 8rem;
+        color: #000;
+        text-shadow: 3px 1px white;
+        font-family: 'Montserrat';
+        animation: slideInText 1s ease forwards;
+    }
+    
+    #headerParagraph {
+        text-align: center;
+        color: #000;
+        text-shadow: 1px 1px white;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 500;
+        animation: slideInText 1.5s ease forwards;
+    }
+
+    #headerText {
+        float: right;
+        margin: auto;
+    }
+}
