@@ -69,6 +69,7 @@ h1 {
 }
 
 #bemutatkozas {
+    border-radius: 3px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     font-style: italic;
@@ -79,10 +80,6 @@ h1 {
 #bemutatkozasCim {
     text-align: center;
     text-decoration: underline;
-}
-
-#szolgaltatasok {
-    margin-top: 2rem;
 }
 
 #szolgaltatasokCim {
@@ -100,10 +97,19 @@ h1 {
 #szolgaltatasokCimsor {
     text-decoration: underline;
     text-align: center;
+    /* margin-top: 2rem; */
+}
+
+#szolgaltatasCimEgesz {
+    margin: auto;
+    width: 95%;
+    border-radius: 3px;
     margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .card {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     width: 18rem;
     height: 27rem;
     margin-top: 1rem;
@@ -111,6 +117,7 @@ h1 {
 }
 
 #csomagok {
+    border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.2);
     width: 98.5%;
     margin: 0 auto;
@@ -124,6 +131,12 @@ h1 {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
+}
+
+#Icon {
+    display: grid;
+    margin: auto;
+    width: 5rem;
 }
 
 h5 {
@@ -158,8 +171,10 @@ footer {
 }
 
 #footerParagraph {
+    font-size: 0.8rem;
     font-family: 'Montserrat';
     font-weight: 500;
+    opacity: 0.6;
 }
 
 #footerURL:hover {
@@ -178,4 +193,3 @@ footer {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-
