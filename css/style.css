@@ -194,6 +194,9 @@ footer {
     width: 15rem;
 }
 
+.container {
+    padding: 0;
+}
 
 #eddigiH2 {
     text-decoration: underline;
