@@ -2,6 +2,8 @@
     #ugyfelek {
         place-items: center;
         display: grid;
+        width: 200px;
+        height: 184px;
     }
 }
 
@@ -15,6 +17,8 @@
     #ugyfelek {
         place-items: center;
         display: grid;
+        width: 200px;
+        height: 184px;
     }
 }
 
