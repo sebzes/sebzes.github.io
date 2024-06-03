@@ -206,10 +206,10 @@ footer {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, auto);
-    column-gap: 0; /* No space between images */
+    column-gap: 0;
 }
 
 #ugyfelek img {
-    margin: 0; /* Remove any default margin */
+    margin: 0;
     display: block;
 }
