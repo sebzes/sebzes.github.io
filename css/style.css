@@ -201,3 +201,15 @@ footer {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+#ugyfelekContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 0; /* No space between images */
+}
+
+#ugyfelek img {
+    margin: 0; /* Remove any default margin */
+    display: block;
+}

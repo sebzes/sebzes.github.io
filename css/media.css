@@ -1,11 +1,5 @@
 @media screen and (max-width: 1250px) {
-    #ugyfelek {
-        margin: auto;
-        place-items: center;
-        display: grid;
-        width: 200px;
-        height: 184px;
-    }
+    
 }
 
 @media screen and (min-width: 1250px) {
@@ -15,13 +9,7 @@
     min-width)
      */
     
-    #ugyfelek {
-        margin: auto;
-        place-items: center;
-        display: grid;
-        width: 200px;
-        height: 184px;
-    }
+     
 }
 
 @media screen and (max-width: 1250px) {
