@@ -210,6 +210,7 @@ footer {
 }
 
 #ugyfelek img {
+    max-width: 100%;
     margin: 0; /* Remove any default margin */
     display: block;
 }
