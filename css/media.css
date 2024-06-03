@@ -1,5 +1,6 @@
 @media screen and (max-width: 1250px) {
     #ugyfelek {
+        margin: auto;
         place-items: center;
         display: grid;
         width: 200px;
@@ -15,6 +16,7 @@
      */
     
     #ugyfelek {
+        margin: auto;
         place-items: center;
         display: grid;
         width: 200px;
