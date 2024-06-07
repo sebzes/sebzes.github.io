@@ -1,0 +1,18 @@
+footer {
+    margin-top: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+
+#footerParagraph {
+    font-size: 0.8rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+#footerURL:hover {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: oblique;
+}

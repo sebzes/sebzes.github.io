@@ -1,0 +1,108 @@
+#headerText {
+    float: right;
+    margin-right: 15rem;
+}
+
+#headerParagraph {
+    color: #000;
+    text-shadow: 1px 1px white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    animation: slideInText 1.5s ease forwards;
+}
+
+#kamera {
+    margin: auto;
+    border: 1px solid #000;
+    border-radius: 2px;
+    width: 80%;
+    display: block;
+
+    animation: slideInKamera 1s ease forwards;
+}
+
+#bemutatkozas {
+    border-radius: 3px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+}
+
+#bemutatkozasCim {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#szolgaltatasokCim {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#szolgaltatasokParagraph {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#szolgaltatasokCimsor {
+    text-decoration: underline;
+    text-align: center;
+    /* margin-top: 2rem; */
+}
+
+#szolgaltatasCimEgesz {
+    margin: auto;
+    width: 95%;
+    border-radius: 3px;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#csomagok {
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    padding-bottom: 2rem;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#Icon {
+    display: grid;
+    margin: auto;
+    width: 5rem;
+}
+
+#gomb {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+
+}
+
+#ugyfel_h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#ugyfelekKartya {
+    text-align: center;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
