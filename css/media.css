@@ -55,7 +55,7 @@
     }
 
     #headerText {
-        float: right;
-        margin: auto;
+        text-align: center;
+        padding: auto;
     }
 }
