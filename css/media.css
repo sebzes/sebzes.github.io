@@ -39,23 +39,19 @@
         text-align: center;
         font-size: 80px;
         padding-top: 8rem;
-        color: #000;
-        text-shadow: 3px 1px white;
+        color: #fff;
+        text-shadow: 3px 1px #000;
         font-family: 'Montserrat';
         animation: slideInText 1s ease forwards;
     }
     
     #headerParagraph {
         text-align: center;
-        color: #000;
-        text-shadow: 1px 1px white;
+        color: #fff;
+        text-shadow: 1px 1px ;
         font-size: 20px;
         font-style: italic;
         font-weight: 500;
         animation: slideInText 1.5s ease forwards;
-    }
-
-    #headerText {
-    
     }
 }
