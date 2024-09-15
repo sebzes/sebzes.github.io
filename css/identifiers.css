@@ -1,7 +1,7 @@
 
 #headerParagraph {
-    color: #fff;
-    text-shadow: 1px 1px #000;
+    color: #000;
+    text-shadow: 1px 1px #fff;
     font-size: 20px;
     font-style: italic;
     font-weight: 500;
@@ -21,7 +21,7 @@
 #bemutatkozas {
     border-radius: 3px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     font-style: italic;
     text-align: center;
     font-size: 20px;
@@ -41,7 +41,7 @@
 
 #szolgaltatasokParagraph {
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #szolgaltatasokCimsor {
@@ -55,12 +55,12 @@
     width: 95%;
     border-radius: 3px;
     margin-top: 2rem;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #csomagok {
     border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     width: 100%;
     margin: auto;
     display: grid;
@@ -100,7 +100,7 @@
 #ugyfelekKartya {
     text-align: center;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     padding-top: 1rem;
     padding-bottom: 1rem;
 }

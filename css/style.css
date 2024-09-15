@@ -38,7 +38,7 @@ h1 {
     font-size: 80px;
     padding-top: 8rem;
     color: #000;
-    text-shadow: 3px 1px white;
+    text-shadow: 3px 1px #fff;
     font-family: 'Montserrat';
 
     animation: slideInText 1s ease forwards;
@@ -53,6 +53,8 @@ li {
 }
 
 h2 {
+    color: #fff;
+    text-shadow: 3px 1px #000;
     text-decoration: underline;
     text-align: center;
     font-weight: 700;
