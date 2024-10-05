@@ -1,7 +1,19 @@
 
+#headerTextBox {
+    background-color: #3C3D37;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+    animation: slideInText 1s ease forwards;
+}
+
+#headerText {
+    padding-top: 8rem;
+}
+
 #headerParagraph {
-    color: #000;
-    text-shadow: 1px 1px #fff;
+    color: #ECDFCC;
+    text-shadow: 1px 1px #3C3D37;
     font-size: 20px;
     font-style: italic;
     font-weight: 500;
@@ -9,19 +21,19 @@
 }
 
 #kamera {
-    margin: auto;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    width: 80%;
+    border: 1px solid #697565;
+    border-radius: 1rem;
+    max-width: 90%;
+    height: auto;
     display: block;
 
     animation: slideInKamera 1s ease forwards;
 }
 
 #bemutatkozas {
-    border-radius: 3px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
+    max-width: 90%;
+    color: #ECDFCC;
+    text-shadow: 1px 1px #3C3D37;
     font-style: italic;
     text-align: center;
     font-size: 20px;
@@ -30,6 +42,7 @@
 #bemutatkozasCim {
     text-align: center;
     text-decoration: underline;
+    color: #000;
 }
 
 #szolgaltatasokCim {
