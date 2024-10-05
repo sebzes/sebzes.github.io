@@ -25,3 +25,6 @@
     justify-content: center ;
 }
 
+.headerCont {
+    border-radius: 0;
+}
